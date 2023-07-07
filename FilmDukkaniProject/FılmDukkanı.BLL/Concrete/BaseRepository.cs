@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace FılmDukkanı.BLL.Abstract
+namespace FılmDukkanı.BLL.Concrete
 {
-    internal interface IRepository
+    internal class BaseRepository
     {
     }
 }
