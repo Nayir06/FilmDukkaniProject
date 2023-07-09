@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace FılmDukkanı.Entity.Enum
 {
-    internal class Status
+    public enum Status
     {
+        None,
+        Created,
+        Updated,
+        Deleted,
     }
 }

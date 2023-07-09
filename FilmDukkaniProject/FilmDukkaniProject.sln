@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FilmDukkanı.DAL", "FilmDukkanı.DAL\FilmDukkanı.DAL.csproj", "{083417F4-105E-42F9-A6E0-FD3ACBEE8E91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FılmDukkanı.Entity", "FılmDukkanı.Entity\FılmDukkanı.Entity.csproj", "{BD746B1C-9EC3-4758-9C49-EF64FFE160DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FılmDukkanı.BLL", "FılmDukkanı.BLL\FılmDukkanı.BLL.csproj", "{001BF2EE-FE48-4D69-965C-8214389C3299}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{083417F4-105E-42F9-A6E0-FD3ACBEE8E91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{083417F4-105E-42F9-A6E0-FD3ACBEE8E91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{083417F4-105E-42F9-A6E0-FD3ACBEE8E91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{083417F4-105E-42F9-A6E0-FD3ACBEE8E91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD746B1C-9EC3-4758-9C49-EF64FFE160DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD746B1C-9EC3-4758-9C49-EF64FFE160DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD746B1C-9EC3-4758-9C49-EF64FFE160DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD746B1C-9EC3-4758-9C49-EF64FFE160DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{001BF2EE-FE48-4D69-965C-8214389C3299}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{001BF2EE-FE48-4D69-965C-8214389C3299}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{001BF2EE-FE48-4D69-965C-8214389C3299}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{001BF2EE-FE48-4D69-965C-8214389C3299}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection

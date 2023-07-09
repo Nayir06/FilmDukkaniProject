@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\FilmDukkanı.DAL\FilmDukkanı.DAL.csproj" />
+    <ProjectReference Include="..\FılmDukkanı.Entity\FılmDukkanı.Entity.csproj" />
+  </ItemGroup>
+
 </Project>

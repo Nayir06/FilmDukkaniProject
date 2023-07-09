@@ -864,16 +864,6 @@
             "rid": "win"
           }
         }
-      },
-      "FılmDukkanı.Entity/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "compile": {
-          "bin/placeholder/FılmDukkanı.Entity.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/FılmDukkanı.Entity.dll": {}
-        }
       }
     }
   },
@@ -2186,16 +2176,10 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-    },
-    "FılmDukkanı.Entity/1.0.0": {
-      "type": "project",
-      "path": "../FılmDukkanı.Entity/FılmDukkanı.Entity.csproj",
-      "msbuildProject": "../FılmDukkanı.Entity/FılmDukkanı.Entity.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "FılmDukkanı.Entity >= 1.0.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.19",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.19",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.19"
@@ -2232,11 +2216,7 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {
-            "C:\\Users\\hasan\\Desktop\\github\\FilmDukkaniProject\\FilmDukkaniProject\\FılmDukkanı.Entity\\FılmDukkanı.Entity.csproj": {
-              "projectPath": "C:\\Users\\hasan\\Desktop\\github\\FilmDukkaniProject\\FilmDukkaniProject\\FılmDukkanı.Entity\\FılmDukkanı.Entity.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace FılmDukkanı.Entity.Interface
 {
-    internal interface IEntity
+    internal interface IEntity<Guid>
     {
+        public int Id { get; set; }
+        public Guid MasterId { get; set; }
+
+
+        public bool IsActive { get; set; }
+        public string status { get; set; }
+
+
     }
 }

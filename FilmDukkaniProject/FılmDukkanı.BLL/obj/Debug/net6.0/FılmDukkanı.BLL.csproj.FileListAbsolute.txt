@@ -1,0 +1,5 @@
+C:\Users\hasan\Desktop\github\FilmDukkaniProject\FilmDukkaniProject\FılmDukkanı.BLL\obj\Debug\net6.0\FılmDukkanı.BLL.csproj.AssemblyReference.cache
+C:\Users\hasan\Desktop\github\FilmDukkaniProject\FilmDukkaniProject\FılmDukkanı.BLL\obj\Debug\net6.0\FılmDukkanı.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hasan\Desktop\github\FilmDukkaniProject\FilmDukkaniProject\FılmDukkanı.BLL\obj\Debug\net6.0\FılmDukkanı.BLL.AssemblyInfoInputs.cache
+C:\Users\hasan\Desktop\github\FilmDukkaniProject\FilmDukkaniProject\FılmDukkanı.BLL\obj\Debug\net6.0\FılmDukkanı.BLL.AssemblyInfo.cs
+C:\Users\hasan\Desktop\github\FilmDukkaniProject\FilmDukkaniProject\FılmDukkanı.BLL\obj\Debug\net6.0\FılmDukkanı.BLL.csproj.CoreCompileInputs.cache

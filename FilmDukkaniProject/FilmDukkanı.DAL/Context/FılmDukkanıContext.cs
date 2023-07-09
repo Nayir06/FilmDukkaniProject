@@ -1,18 +1,24 @@
 ﻿
+using FılmDukkanı.Entity.Entity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace FilmDukkanı.DAL.Context
 {
-    internal class FılmDukkanıContext:IdentityDbContext
+    public class FılmDukkanıContext:IdentityDbContext
     {
 
 
+        //tablolar
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<Movie> Movies   { get; set; }
+        public DbSet<AppUser> Users { get; set; }
 
-        public DbSet<Category>
 
 
 
+
+        //connecting string
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             if (!optionsBuilder.IsConfigured)
